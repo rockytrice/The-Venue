@@ -5,6 +5,7 @@ import VenueNfo from "./components/venueNfo/index";
 import Highlight from "./components/Highlights/index";
 import Pricing from "./components/pricing/";
 import Location from "./components/location";
+import Footer from "./components/header_footer/Footer";
 import "./resources/styles.css";
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Highlight />
         <Pricing />
         <Location />
+        <Footer />
       </div>
     );
   }
