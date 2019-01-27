@@ -7,7 +7,7 @@ const Featured = () => {
     <div style={{ position: "relative" }}>
       <Carrousel />
       <div className="artist_name">
-        <div className="wrapper">Ariana Grande</div>
+        <div className="wrapper">Florida Georgia Line</div>
       </div>
       <CountDown />
     </div>
