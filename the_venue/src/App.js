@@ -6,6 +6,7 @@ import Highlight from "./components/Highlights/index";
 import Pricing from "./components/pricing/";
 import Location from "./components/location";
 import Footer from "./components/header_footer/Footer";
+import { Element } from "react-scroll";
 import "./resources/styles.css";
 
 class App extends Component {
@@ -13,11 +14,25 @@ class App extends Component {
     return (
       <div className="App" style={{ height: "1500px" }}>
         <Header />
-        <Featured />
-        <VenueNfo />
-        <Highlight />
-        <Pricing />
-        <Location />
+        <Element name="Events starts in">
+          <Featured />
+        </Element>
+
+        <Element name="Venue NFO">
+          <VenueNfo />
+        </Element>
+
+        <Element name="Description">
+          <Highlight />
+        </Element>
+
+        <Element name="Pricing">
+          <Pricing />
+        </Element>
+
+        <Element name="Location">
+          <Location />
+        </Element>
         <Footer />
       </div>
     );
