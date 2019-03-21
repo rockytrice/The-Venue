@@ -1,5 +1,7 @@
 The Venue is a static Website that displays upcoming musical event information. It displays the artist, countdow timer until the event starts, the actual event date and time, and the location. It features a pricing seaction that display the different packages that can be purchased.
 
+check out the demo site here https://rockytrice.github.io/The-Venue/
+
 ![](https://ws2.sinaimg.cn/large/006tKfTcly1g1awhw3f3wj31py0u0u0y.jpg)
 ![](https://ws2.sinaimg.cn/large/006tKfTcly1g1awjt53djj31q90u079c.jpg)
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1g1awjs5p4sj30yh0kxju2.jpg)
