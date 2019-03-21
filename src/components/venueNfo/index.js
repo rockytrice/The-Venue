@@ -15,10 +15,12 @@ const VenueNfo = () => {
                   <div className="vn_icon_square bck_red" />
                   <div
                     className="vn_icon"
-                    style={{ background: `url(${icon_calendar})` }}
+                    style={{
+                      background: `url(${icon_calendar})`
+                    }}
                   />
-                  <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc"> August 16 2019 @10.00 pm</div>
+                  <div className="vn_title"> Event Date & Time </div>
+                  <div className="vn_desc"> August 30 2019 @07: 00 pm </div>
                 </div>
               </div>
             </div>
@@ -30,11 +32,13 @@ const VenueNfo = () => {
                   <div className="vn_icon_square bck_yellow" />
                   <div
                     className="vn_icon"
-                    style={{ background: `url(${icon_location})` }}
-                  />
-                  <div className="vn_title">Event Location</div>
+                    style={{
+                      background: `url(${icon_location})`
+                    }}
+                  />{" "}
+                  <div className="vn_title"> Event Location </div>
                   <div className="vn_desc">
-                    1 Citrus Bowl Place Orlando, FL 32805
+                    MIDFLORIDA Credit Union Amphitheatre Tampa, FL
                   </div>
                 </div>
               </div>
